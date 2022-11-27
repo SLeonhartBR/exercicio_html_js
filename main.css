@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    color:#fff;
+}
+.container {
+    display: flex;
+    flex-direction: column;    
+    margin: 150px auto;
+    width: 450px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(57, 61, 65)
+}
+.container h1 {
+    margin-bottom: 16px;
+}
+.container form {
+    display:flex;
+    flex-direction: column;
+}
+.container input {
+    display:block;
+    margin: 0 auto 10px auto;
+    width:100px;
+    color: #000
+}
+.container input::placeholder {
+    text-align: center;
+}
+.container button{
+    width: 100px;
+    margin: 16px auto;
+    background-color:rgb(89, 105, 141);
+    cursor:pointer;
+}
+.container button:hover {
+    background-color:rgb(129, 146, 187);
+}
